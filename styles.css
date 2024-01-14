@@ -27,7 +27,7 @@ header {
 
 .header-description {
     color: #FFF;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 /* button styles */
@@ -36,11 +36,99 @@ header {
     color: #005FAC;
     font-size: 20px;
     border: none;
+    margin-top: 20px;
     border-radius: 5px;
     background: #FFF;
     padding: 20px 25px;
 }
+
 /* main section styles */
-.failures-content{
+.failures-content {
     display: flex;
+    gap: 110px;
+}
+
+.failures-img {
+    margin-top: 140px;
+    margin-left: 180px;
+}
+
+.failures-text {
+    margin-top: 370px;
+    margin-right: 135px;
+}
+
+.failures-content-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failures-content-description {
+    color: #444343;
+    margin: 25px 0 16px 0;
+}
+
+.failures-text>li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    color: #444343;
+}
+
+.failures-text>li,
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* plans section styles */
+.plans-section {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 130px;
+}
+
+.plans-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plans-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans-item-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.plans-description {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* positive mindset styles */
+.positive-mindset {
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 130px 130px 130px 180px;
+    height: 215px;
+    padding: 50px 400px 25px 65px;
+
+}
+
+.positive-mindset h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+
 }
